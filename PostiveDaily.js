@@ -2,7 +2,7 @@
 var start = + new Date();
 var PositiveDaily = {
 
-	triggerWords: /\b(WAR?|DONALD TRUMP|SAD|EMOTIONAL|TERRORIST|ISLAMIST|DIES|KILL?)\b/i,
+	triggerWords: /\b(WAR?|DONALD TRUMP|SAD|EMOTIONAL|TERRORIST|ISIS|ISLAMIC|KILLER|MURDER|RAPE|DANGER|TRAGEDY|||ISLAMIST|DIES|KILL?)\b/i,
 	articleNames: ["li", ".post",".article",".story", ".g", ".zergentity", ".unit", ".lede", ".item", ".item-box", ".archive-item", ".news", ".entry", ".highlight"],
 
 	checkClass: function(element) {
